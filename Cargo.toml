@@ -1,8 +1,13 @@
 [package]
 name = "cargo-pleiades"
-version = "0.1.0"
+version = "0.0.0"
 edition = "2021"
-
+authors = ["Jonathan Paul Wolfe: rootismyotheremail@gmail.com"]
+description = "all-purpose scientific calculator"
+license = "LGPL-3.0"
+repository = "https://github.com/jonathanpwolfe/cargo-pleiades.git"
+readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+pleiades = {git = "https://github.com/jonathanpwolfe/cargo-pleiades.git"}
